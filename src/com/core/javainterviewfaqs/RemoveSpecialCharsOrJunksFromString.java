@@ -10,7 +10,7 @@ public class RemoveSpecialCharsOrJunksFromString {
 		
 		String str = "&^%$ rayan 100890 %%";
 		
-		System.out.println(str.replaceAll("[a-zA-Z0-9]",""));
+		System.out.println(str.replaceAll("[^a-zA-Z0-9]",""));
 		
 		//If we are NOT passing ^ ===> Output would be "&^%$   %%" ===> IT exclude all the characters from a-z, A-Z, 0-9
 		
