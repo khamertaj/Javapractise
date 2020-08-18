@@ -10,7 +10,8 @@ public class ReverseInteger {
 		System.out.println("Number ================> " +  num);
 		while(num != 0) {
 			
-			rev = rev*10 + num%10;
+			int n = num % 10;
+			rev = rev*10 + n;
 			num = num / 10;
 			
 		}
